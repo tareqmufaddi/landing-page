@@ -1,0 +1,137 @@
+*{
+    font-family: Roboto;
+}
+
+.header-container {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    width: 800px;
+    padding-left: 100px;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 10%;
+    border-style: none;
+    color: white;
+    height: 25px;
+    width: 50px;
+    margin-top: 15px;
+}
+
+.links {
+    color: #e5e7eb;
+}
+
+.main-text-container {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding: 10%;    
+}
+
+.text-right {
+    background-color: #e5e7eb;
+    width: 1200px;
+    height: 200px;
+}
+
+.text-left {
+    color: #e5e7eb;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-right: 300px;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.button {
+    width: 75px;
+}
+
+.heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.second-text-container {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.row-images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.column-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-images-text {
+    color: grey;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
+.image {
+    max-width: 200px;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 10%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote-sig {
+    display: flex;
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-cols {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-cr {
+    display: flex;
+    justify-content: center;
+}
